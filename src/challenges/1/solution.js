@@ -26,4 +26,4 @@ for (const entry of input) {
     total += parseInt(num1 + num2);
 }
 
-console.log(total);  //55652
+console.log(total);  //55291
