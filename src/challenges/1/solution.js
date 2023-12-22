@@ -23,8 +23,9 @@ for (const entry of input) {
     if (!/\d/.test(num1)) num1 = castToNumber[num1];
     if (!/\d/.test(num2)) num2 = castToNumber[num2];
     if (!num2) num2 = num1;
-    console.log(entry, num1, num2)
+    //if (!doubleNumberRegex.test(entry)) console.log(entry)
+    //console.log(entry, num1, num2)
     total += parseInt(num1 + num2);
 }
 
-console.log(total);  //55291
+console.log(total);  //55652
